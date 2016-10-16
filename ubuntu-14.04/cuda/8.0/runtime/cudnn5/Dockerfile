@@ -1,4 +1,4 @@
-FROM topiaruss/nvidia-ub1404cuda80:runtime
+FROM topiaruss/nvidia-ub1404cuda80
 MAINTAINER NVIDIA CORPORATION <digits@nvidia.com>
 
 RUN apt-get update && apt-get install -y \
