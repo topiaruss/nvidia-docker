@@ -1,4 +1,4 @@
-FROM cuda:8.0-devel
+FROM topiaruss/nvidia-ub1404cuda80:8.0-devel
 MAINTAINER NVIDIA CORPORATION <digits@nvidia.com>
 
 RUN apt-get update && apt-get install -y \
